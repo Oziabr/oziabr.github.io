@@ -1,6 +1,6 @@
 = Про цыферки.
 
-image::http://www.math24.ru/images/number-sets.jpg[]
+:hp-image: http://www.math24.ru/images/number-sets.jpg[]
 
 == Немножко абстрактной теории
 
