@@ -1,7 +1,7 @@
-= Про цыферки.
+= Про цыферки
 
-:hp-alt-title: Little bit on numbers.
-:hp-image: http://www.math24.ru/images/number-sets.jpg[]
+:hp-alt-title: Little bit on numbers
+:hp-image: number-sets.jpg
 
 == Немножко абстрактной теории
 
