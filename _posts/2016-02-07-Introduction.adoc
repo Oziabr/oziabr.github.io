@@ -3,6 +3,7 @@
 Hello.
 
 My name is Yury and I am:
+
 - Gentleman
 - Engineer
 - Psychologist
@@ -10,11 +11,14 @@ My name is Yury and I am:
 - Atheist
 
 My idea of happiness is:
+
 - Worldwide Peace
 - Conscious Robots
 - Deep Space Collonization
 
 While we're waiting for all this I'm enjoying some simple things, as:
+
 - Trying to make the world around little better.
+- Wrighting down my observations.
 
 Cheers.
