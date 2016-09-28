@@ -14,7 +14,7 @@ layout: page
 | Senior Developer |                                 |     |           |
 |                  |                                       |           |
 | 2013             | Tended to various infrastructural     | Obitus    |
-| \*nix Sysadmin   | systems.                              |           |
+|  Unix Sysadmin   | systems.                              |           |
 |                  |                                       |           |
 | 2012             | Developed modules for inventory       | BeeLine   |
 | Senior Developer | software of mobile network op.        |           |
