@@ -1,9 +1,7 @@
 ---
-title: cv
+title: '["Lead/Senior Developer"]'
 date: 2016-09-28 08:08:00 Z
 permalink: cv
-title:
-- Lead/Senior Developer
 layout: page
 ---
 
