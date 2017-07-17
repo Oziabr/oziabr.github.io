@@ -1,4 +1,4 @@
-# Implementing noSQL designs RDBMS
+# Implementing noSQL designs in RDBMS
 
 In this article we're designing **postgresql** DB in a **mongodb** way.
 
@@ -54,9 +54,26 @@ select parts.name from products, parts where partno = any(products.parts);
 (2 rows)
 ```
 
+But it will save you app-level logic and one extra query, because RDBMS doing it for you.
+
 ### One2Squillions
 
+This is almost identical to normal one-2-many design. Except for foreign keys, of course.
 
+```sql
+create table hosts (name varchar, ipaddr inet);
+insert into hosts values ('goofy.example.com', '127.66.66.66');
 
+create table logmsg (time timestamp, message varchar, host inet);
+insert into logmsg values ('2014-03-28T09:42:41.382Z', 'cpu is on fire!', '127.66.66.66');
+```
 
+Getting it back:
 
+```sql
+select message from logmsg, hosts where ipaddr = host;
+     message     
+-----------------
+ cpu is on fire!
+(1 row)
+```
