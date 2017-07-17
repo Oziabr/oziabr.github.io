@@ -58,7 +58,7 @@ But it will save you app-level logic and one extra query, because RDBMS doing it
 
 ### One2Squillions
 
-This is almost identical to normal one-2-many design. Except for foreign keys, of course.
+This is almost identical to usual RDBMS one-2-many design. Except for foreign keys, of course.
 
 ```sql
 create table hosts (name varchar, ipaddr inet);
@@ -77,3 +77,8 @@ select message from logmsg, hosts where ipaddr = host;
  cpu is on fire!
 (1 row)
 ```
+
+Think about it:
+- if the design considered normal within RDBMS, in **mongodb** works only in case of HUGE collection, what does it says about both? (universality)
+- if **mongodb** embedding made to get you all the requested data in one query, but RDBMS allows you to get in one query data collected from any number of tables? (usability)
+- how it is helping that second design in **mongodb** is not only limited to 131072 references, but this references also shared space with document? (scalability)
