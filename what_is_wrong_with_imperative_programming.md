@@ -4,8 +4,8 @@
 
 It is **flexible**.
 
-While it allow programmers to solve any task by a numerous different ways,
-it doesn't force them to be consistent in the way they use in their code.
+While it allow programmers to solve any task by a numerous ways, it doesn't
+force them to be consistent in the way they use in their code.
 
 This is the main reason for decline in velocity and maintainability in most
 large projects. And also for lots of bad blood between programmers.
@@ -140,6 +140,23 @@ ul#parent
 
 ## Conclusions and thoughts
 
+This shows the value of declarative code:
+- hard to implement same functionality differently
+- can be done by less qualified personel
+- can be easily understood by any coder
+- not inciting holy-wars
+
+All this gives you maintainability, clearer estimates, happy
+teammates and excludes [bus factor].
+
+Meanwhile, to achieve same quality of imperative code, one should
+went a great distance:
+- stick to best practices and underlying platform style-guide and
+conventions
+- educate team in the former
+- implement instruments for code analysis and enforcement of rules
+
+
 
 [recursion]: https://www.refactoring.com/catalog/replaceRecursionWithIteration.html
-
+[bus factor]: https://en.wikipedia.org/wiki/Bus_factor
