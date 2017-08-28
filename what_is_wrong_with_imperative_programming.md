@@ -151,8 +151,9 @@ teammates and excludes [bus factor].
 
 Meanwhile, to achieve same quality of imperative code, one should
 went a great distance:
-- stick to best practices and underlying platform style-guide and
-conventions
+- stick to best practices, as well as to underlying platform style-guide
+and conventions (if you have a platform, otherwise you'll have to build
+the platform and write guides yourself)
 - educate team in the former
 - implement instruments for code analysis and enforcement of rules
 
