@@ -149,7 +149,7 @@ This shows the value of declarative code:
 All this gives you maintainability, clearer estimates, happy
 teammates and excludes [bus factor].
 
-Meanwhile, to achieve same quality of imperative code, one should
+Meanwhile, to achieve same quality in imperative code, one should
 went a great distance:
 - stick to best practices, as well as to underlying platform style-guide
 and conventions (if you have a platform, otherwise you'll have to build
