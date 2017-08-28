@@ -10,7 +10,16 @@ it doesn't force them to be consistent in the way they use in their code.
 This is the main reason for decline in velocity and maintainability in most
 large projects. And also for lots of bad blood between programmers.
 
-1. 
+1. [Imperative solution](#imperative-solution)
+    1. [Example setup](#example-setup)
+    1. [Iteration](#iteration)
+    1. [Adding element](#adding-element)
+    1. [Summary](#summary)
+1. [Declarative alternative](#declarative-alternative)
+    1. [Template engines (backend)](#template-engines-backend)
+    1. [Angularjs template (frontend)](#angularjs-template-frontend)
+    1. [Conclusions and thoughts](#conclusions-and-thoughts)
+1. [Conclusions and thoughts](#conclusions-and-thoughts)
 
 ## Imperative solution
 
@@ -84,6 +93,8 @@ el.appendChild(li);
 ```js
 $("<li>"+item+"</li>").appendTo('#parent');
 ```
+
+### Summary
 
 As you can see we just got 10 different ways to implement same basic functionality.
 But this is just atop of the problem:
