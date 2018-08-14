@@ -50,6 +50,7 @@
 - стек: nodejs, postgresql, nginx, debian, docker
 - ci/cd: могу на консольном гите и CGI, и естественно jenkins, teamcity (нахрена оно надо, travis лучший, лол)
 - админ сетей, линуксов и freebsd-ей
+- DBA - иногда
 - fluently speak English and able to conduct serious negotiations with native speakers (and they love me!)
 
 ## Работадателю
