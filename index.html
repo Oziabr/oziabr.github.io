@@ -1,170 +1,94 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
-"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<!DOCTYPE html>
+<html>
 
 <head>
-     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-
-     <title>CV</title>
-
-     <style type="text/css">
-        * { margin: 0; padding: 0; }
-        body { font: 16px Helvetica, Sans-Serif; line-height: 24px; background: url(images/noise.jpg); }
-        .clear { clear: both; }
-        #page-wrap { width: 800px; margin: 40px auto 60px; }
-        #pic { float: right; margin: -15px 0 0 0; border: 10px solid white; box-shadow: 1px 1px 1px grey, -1px 1px 1px grey, 1px -1px 1px grey, -1px -1px 1px grey; }
-        h1 { margin: 0 0 16px 0; padding: 0 0 16px 0; font-size: 42px; font-weight: bold; letter-spacing: -2px; border-bottom: 1px solid #999; }
-        h2 { font-size: 20px; margin: 0 0 6px 0; position: relative; }
-        h2 span { position: absolute; bottom: 0; right: 0; font-style: italic; font-family: Georgia, Serif; font-size: 16px; color: #999; font-weight: normal; }
-        p { margin: 0 0 16px 0; }
-        a { color: #999; text-decoration: none; border-bottom: 1px dotted #999; }
-        a:hover { border-bottom-style: solid; color: black; }
-        ul { margin: 0 0 32px 17px; }
-        #objective { width: 610px; float: left; }
-        #objective p { font-family: Georgia, Serif; font-style: italic; color: #666; }
-        dt { font-style: italic; font-weight: bold; font-size: 18px; text-align: right; padding: 0 26px 0 0; width: 150px; float: left; height: 40px; border-right: 1px solid #999;  }
-        dd { width: 600px; float: right; }
-        dd.clear { float: none; margin: 0; height: 4px; }
-     </style>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>cv_devops</title>
+  <link rel="stylesheet" href="https://stackedit.io/style.css" />
 </head>
 
-<body>
-
-    <div id="page-wrap">
-
-        <img src="/images/yury.jpg" alt="Photo of 
-                                         " id="pic" />
-
-        <div id="contact-info" class="vcard">
-
-            <!-- Microformats! -->
-
-            <h1 class="fn">Yury Tvardovsky</h1>
-
-            <p>
-                Cell: <span class="tel">+380-99-2479486</span><br />
-                Email: <a class="email" href="mailto:oziabr@gmail.com">oziabr@gmail.com</a>
-            </p>
-        </div>
-
-        <div id="objective">
-            <p>
-                I am full-stack web-application developer, also experienced in project
-                management, business analysis, system design and devops. And I love
-                to make things work.
-            </p>
-        </div>
-
-        <div class="clear"></div>
-
-        <dl>
-            <dd class="clear"></dd>
-
-            <dt>Skills</dt>
-            <dd>
-                <h2>Developer skills</h2>
-                <p>Javascript/ES2006 (browser and nodejs), SQL, Linux</p>
-
-                <h2>Preferred stack</h2>
-                <p>Angular, Express, PostgreSQL, Nginx, Debian</p>
-            </dd>
-
-            <dd class="clear"></dd>
-
-            <dt>Experience</dt>
-            <dd>
-                <h2>Globalpas <span>Teamlead - Russia, Moscow - 2015-2016</span></h2>
-                <ul>
-                    <li>Developed sales-automation platform.
-                        <ul>
-                            <li>rebuilded HR related modules to consistent state (introduced shared angular and jade compnents into development)</li>
-                            <li>designed and implemented DB-level per resource role access control</li>
-                            <li>implemented KPI calculator with pluggable strategies</li>
-                            <li>migrated backend from PHP to NodeJS (gradually, module by module, while maintaining application in working order and not affecting UX in a bad ways)</li>
-                            <li>implemented user preference system</li>
-                            <li>made <a href='https://github.com/Oziabr/ui-menu'>https://github.com/Oziabr/ui-menu</a> Angular menu module</li>
-                        </ul>
-                    </li>
-                    <li>Organized development workflow.
-                        <ul>
-                            <li>introduced git-flow model (as a substitute to one-branch-per-developer)</li>
-                            <li>migrated repo to github</li>
-                            <li>configured CI (self-hosted strider)</li>
-                            <li>introduced QA positions, hired, trained and supplied with tools both manual and automation testers</li>
-                        </ul>
-                    </li>
-                    <li>Worked with: Angular, YII2, Sailsjs, PostgreSQL</li>
-                </ul>
-
-                <h2>AMF <span>Senior Developer - Russia, Moscow - 2013-2014</span></h2>
-                <ul>
-                    <li>Reanimated E-Commerce platform.
-                        <ul>
-                            <li>dug out from repo old, but more suitable to the business needs, product cart and ordering modules</li>
-                            <li>removed bottlenecks in "with this people buy..." module</li>
-                        </ul>
-                    </li>
-                    <li>Fixed content-management cycle.
-                        <ul>
-                            <li>restored CMS operations (which was wired with hardcode)</li>
-                            <li>reintroduced position and trained content-manager</li>
-                        </ul>
-                    </li>
-                    <li>Worked with: JQuery, Angular, Generic PHP, MySQL</li>
-                </ul>
-
-                <h2>BeeLine <span>Senior Developer - Russia, Moscow - 2012</span></h2>
-                <ul>
-                    <li>Developed modules for inventory software at mobile network OP.
-                        <ul>
-                            <li>implemented RAC access control system</li>
-                            <li>implemented modules for geolocated objects (instalation sites) import, managing, and connectivity</li>
-                        </ul>
-                    </li>
-                    <li>Worked with: JQuery, Apex, Oracle</li>
-                </ul>
-
-                <h2>TKS-Bank <span>Developer - Russia, Moscow - 2011</span></h2>
-                <ul>
-                    <li>Developed various marketing web-applications.
-                        <ul>
-                            <li>implemented multi page form buider (on top of Smarty engine) and form engine (with partial submission)</li>
-                            <li>made typeahead address input module (backed by russian geocoder system)</li>
-                            <li>composed partners integration widget</li>
-                            <li>renovated visual savings calculator</li>
-                        </ul>
-                    </li>
-                    <li>Worked with: JQuery, PHP, Java, PostgreSQL</li>
-                </ul>
-
-                <h2>RTComm <span>Developer - Russia, Moscow - 2005-2010</span></h2>
-                <ul>
-                    <li>Participated in developing ERP for regional network provider.
-                        <ul>
-                            <li>implemented integration with accounting, inventory, monitoring, issue tracker and EIP</li>
-                            <li>deployed monitoring system (OpenNMS)</li>
-                            <li>implemented cbQoS aggregation module for monitoring system</li>
-                            <li>migrated old systems to the new ones (inventory, issue tracker)</li>
-                            <li>made graphical visualization system (which displayed health and connectivity on a very large network)</li>
-                        </ul>
-                    </li>
-                    <li>Worked with: Java, JQuery, Apex, Oracle, PostgreSQL</li>
-                </ul>
-            </dd>
-
-            <dd class="clear"></dd>
-
-            <dt>Languages</dt>
-            <dd>English, Russian</dd>
-
-            <dd class="clear"></dd>
-        </dl>
-
-        <div class="clear"></div>
-
-    </div>
-
+<body class="stackedit">
+  <div class="stackedit__html"><h1 id="юрий-oziabr-твардовский">Юрий (oziabr) Твардовский</h1>
+<p>Больше всего люблю налаживать сложные процессы, поэтому ушел из разработки в devOps. Ещё из-за своей продуктовой ориентированности.</p>
+<p>Делаю, исторически, из подручных ресурсов - супердёшево. При этом мои законченные проекты имеют запас прочности на века (ничего сложного, просто оцениваю big “O” и применяю подходящие решения).</p>
+<p>Предпочитаю мягко оптимизировать процессы вместе с командой, но могу и жестко всех построить, если надо.</p>
+<p>Знаю очень мало (весь цикл жизни продукта, но не бросаюсь на новое), разбираюсь в задачах любой сложности очень быстро.</p>
+<h2 id="экспа">Экспа</h2>
+<p>За 18 лет в разработке реализовал три проекта для средних команд (5-15 devs) и готов браться за крупные - эта облась масштабируется линейно, надо просто брать и делать.</p>
+<h3 id="cd-управление-разработкой">CD, управление разработкой</h3>
+<blockquote>
+<p>Подготовка</p>
+</blockquote>
+<ul>
+<li>Запилил отдел тестирования (manual + auto) с нуля, руками стажеров</li>
+<li>Научил базу храниться в гите (ни одного готового решения не нашел, пришлось писать)</li>
+<li>Написал методички для персонала и руководства</li>
+</ul>
+<blockquote>
+<p>Система</p>
+</blockquote>
+<ul>
+<li>деплой: vhosts-PHP, nodejs, nginx</li>
+<li>сборка: composer, gulp</li>
+<li>cvs: github (смигрировал с gitlab - ускорение изменений)</li>
+<li>флоу: git-flow (смигрировал с branch based - ликвидация конфликтов)</li>
+<li>CD: striderCD</li>
+<li>трекер: redmine</li>
+</ul>
+<blockquote>
+<p>Результат</p>
+</blockquote>
+<ul>
+<li>Переход от ручной тяги на автоматизированные процессы</li>
+</ul>
+<h3 id="cicd-исправление-процессов">CI/CD, исправление процессов</h3>
+<blockquote>
+<p>Подготовка</p>
+</blockquote>
+<ul>
+<li>Написал методички, собрал прототипы</li>
+<li>Внедрил линтер (девы имеют неприятное свойство бесконечно спорить о феншуйности скобок и пробелов. линтер не только лишает их этой возможности, но и позволяет контролировать качество кода)</li>
+</ul>
+<blockquote>
+<p>Система</p>
+</blockquote>
+<ul>
+<li>деплой: docker</li>
+<li>сборка: ansible, npm</li>
+<li>cvs: bitbucket</li>
+<li>флоу: serial branches (смигрировал с поломанного git-flow - под передачу кода в эксплуатацию)</li>
+<li>CD: circle-ci</li>
+<li>трекер: jira</li>
+</ul>
+<blockquote>
+<p>Результат</p>
+</blockquote>
+<ul>
+<li>Исчезли мерж-конфликты, которым лид посвящал одну неделю в месяц</li>
+<li>Неудачные коммиты (которых стало меньше) перестали ломать тестовый инстанс</li>
+<li>Появились метрики качества кода</li>
+</ul>
+<h3 id="безсерверные-приложения-4funprofit">безсерверные приложения 4fun&amp;profit</h3>
+<p>Не готов рассказывать подробно. Достаточно сказать что работает как часы и денег не ест.</p>
+<h2 id="прочее">Прочее</h2>
+<ul>
+<li>стек: nodejs, postgresql, nginx, debian, docker</li>
+<li>ci/cd: могу на консольном гите и CGI, и естественно jenkins, teamcity (нахрена оно надо, travis лучший, лол)</li>
+<li>админ сетей, линуксов и freebsd-ей</li>
+<li>DBA - иногда</li>
+<li>fluently speak English and able to conduct serious negotiations with native speakers (and they love me!)</li>
+</ul>
+<h2 id="работадателю">Работадателю</h2>
+<p>Большой плюс - bullshit free. Жизнь коротка, сделать надо дофига, тратить время на мозгоёблю - зачем? Указатели гроссовых зарплат, вы вот подумайте: вы разводите работника, а потом он будет либо туповат, либо искать способ развести вас (за ваши же деньги).</p>
+<p>Внядрять какую-нибудь бессмысленную свистелку за которые откат уже получен - сразу идите лесом, оно же вскроется через неделю.</p>
+<p>Отсутствие священных коров.</p>
+<p>Орать на людей и истерить - нельзя. Рабочее пространство обязано вентилироваться.</p>
+<blockquote>
+<p>+7 999 872 13 05<br>
+<a href="mailto:oziabr@gmail.com">oziabr@gmail.com</a></p>
+</blockquote>
+</div>
 </body>
 
 </html>
