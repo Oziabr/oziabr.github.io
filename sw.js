@@ -11034,7 +11034,7 @@ self.addEventListener("push", TCWorker.handlePushRecive);
 
 self.addEventListener("install", TCWorker.handleSWInstall);
 	
-self.addEventListener("close", (..args) => console.log('close', args.length, args));
+self.addEventListener("close", (...args) => console.log('close', args.length, args));
 
 self.addEventListener("activate", TCWorker.handleSWActivate);
 
