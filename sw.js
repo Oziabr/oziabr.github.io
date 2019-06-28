@@ -11033,6 +11033,8 @@ var TCWorker = new _worker__WEBPACK_IMPORTED_MODULE_0__["default"](wConfig);
 self.addEventListener("push", TCWorker.handlePushRecive);
 
 self.addEventListener("install", TCWorker.handleSWInstall);
+	
+self.addEventListener("close", (..args) => console.log('close', args.length, args));
 
 self.addEventListener("activate", TCWorker.handleSWActivate);
 
