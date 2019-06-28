@@ -11351,7 +11351,9 @@ var Worker = function () {
   _createClass(Worker, [{
     key: 'displayNotification',
     value: function displayNotification(data) {
-      return self.registration.showNotification(data.title, data);
+      var n = self.registration.showNotification(data.title, data);
+      n.addEventListener('close', () => console.log('closed', data.title, data))
+      return n
     }
   }]);
 
