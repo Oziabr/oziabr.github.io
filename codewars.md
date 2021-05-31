@@ -6,7 +6,7 @@ in fact, I don't do syntax at work, linter does
 
 ## 2 kyu Assembler interpreter (part II)
 https://www.codewars.com/kata/58e61f3d8ff24f774400002c/
-```
+```js
 var assemblerInterpreter = (input, prog = input.split('\n')) => {
   var msg = '', mem = {}, cur = 0, cstack = [], lables = {}, cmp = [], finish
     , ops = {
@@ -41,7 +41,7 @@ var assemblerInterpreter = (input, prog = input.split('\n')) => {
 
 ## 2 kyu Evaluate mathematical expression
 https://www.codewars.com/kata/52a78825cdfc2cfc87000005/
-```
+```js
 var calc = function (ex, e = ex.replace(/\s+/g, '')) {
   ops = [
     [/\(([^()]+)\)/g,               (...v) => calc(v[1]) ]
@@ -56,7 +56,7 @@ var calc = function (ex, e = ex.replace(/\s+/g, '')) {
 
 ## 2 kyu Whitespace Interpreter
 https://www.codewars.com/kata/52dc4688eca89d0f820004c6/
-```
+```js
 function whitespace(code, input) {
   if (!(code = code.replace(/[^\s]+/g, '')).length) throw new Error ('invalid code')
   var marks = {}, calls = [], ptr, output = '', stack = [], heap = {};
